@@ -1,11 +1,8 @@
 @font-face {
     font-family: myFont;
-    src: url(../fonts/EBGaramond-Italic-VariableFont_wght.ttf);
+    src: url(../Golos_Text/GolosText-VariableFont_wght.ttf);
 }
-@font-face {
-    font-family: myFonts;
-    src: url(../fonts/WorkSans-Italic-VariableFont_wght.ttf);
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,15 +17,18 @@ a{
 }
 ul , ol{
     list-style: none;
+    font-family: myFont;
+
+}
+button{
+    font-family: myFont;
 }
 img{
     max-width: 100%;
 }
-p{
+
+p, h1, h2, h3 {
     font-family: myFont;
-}
-h1, h2 {
-    font-family: myFonts;
 }
 header{
     padding: 20px 0;
@@ -109,7 +109,6 @@ header{
 
 }
 .text-tittle{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -193,7 +192,6 @@ header{
 
 }
 .img-item-left p:nth-of-type(2){
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
